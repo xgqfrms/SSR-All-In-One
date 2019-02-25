@@ -5,10 +5,12 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "next",
+        "next": "next",
         "app": "npn run build",
         "build": "next build",
-        "start": "next start"
+        "start": "next start",
+        "dev": "node server.js",
+        "prod": "NODE_ENV=production node server.js"
     },
     "repository": {
         "type": "git",

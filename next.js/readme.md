@@ -75,7 +75,7 @@ https://github.com/arunoda/learnnextjs-demo/tree/using-shared-components
 
 
 
-##
+## custom server API
 
 
 ```sh
@@ -85,4 +85,12 @@ $ npm install --save express
 $ npm i -S express
 
 ```
+
+https://github.com/zeit/next.js#custom-server-and-routing
+
+## getInitialProps
+
+> async function
+
+
 
