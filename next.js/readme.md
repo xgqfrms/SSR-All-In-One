@@ -3,3 +3,51 @@
 > Next.js
 
 https://nextjs.org/learn/basics/getting-started/setup
+
+## Install
+
+```sh
+$ mkdir next-demo-app && cd next-demo-app
+
+$ npm init -y
+
+# version: (1.0.0) 1.1.1
+# description: SRR for React
+# git repository: https://github.com/xgqfrms/ssr-all-in-one
+# keywords: SSR, React, Node.js, App, PWA, SPA, Next.js,
+# author: xgqfrms
+# license: (ISC) MIT
+
+$ npm install --save react react-dom next
+# OR
+$ npm i -S react react-dom next
+# OR
+$ yarn add react react-dom next
+
+$ mkdir pages
+
+```
+## Scripts
+
+```json
+
+{
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    }
+}
+
+```
+
+## DevOps
+
+```sh
+# open http://localhost:3000
+$ npm run dev
+
+# auto open http://localhost:3000
+$ start http://localhost:3000 && npm run dev
+
+```
