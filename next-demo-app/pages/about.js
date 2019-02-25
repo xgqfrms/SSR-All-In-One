@@ -12,20 +12,29 @@
  *
  */
 
+import Layout from "../components/layout";
 
 // This is the Link API
-import Link from "next/link";
+// import Link from "next/link";
+
+// const About = () => (
+//     <section>
+//         <div>
+//             <Link href="/index">
+//                 <a>Home Page</a>
+//             </Link>
+//         </div>
+//         <div>
+//             <p>This is the about page</p>
+//         </div>
+//     </section>
+// );
 
 const About = () => (
     <section>
-        <div>
-            <Link href="/index">
-                <a>Home Page</a>
-            </Link>
-        </div>
-        <div>
+        <Layout>
             <p>This is the about page</p>
-        </div>
+        </Layout>
     </section>
 );
 

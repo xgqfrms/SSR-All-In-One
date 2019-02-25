@@ -30,6 +30,7 @@
     },
     "homepage": "https://github.com/xgqfrms/ssr-all-in-one#readme",
     "dependencies": {
+        "express": "^4.16.4",
         "next": "^8.0.3",
         "react": "^16.8.3",
         "react-dom": "^16.8.3"

@@ -55,3 +55,34 @@ $ start http://localhost:3000 && npm run dev
 ## Routing & Link
 
 https://github.com/zeit/next.js#routing
+
+
+## Shared Components
+
+https://github.com/arunoda/learnnextjs-demo/tree/using-shared-components
+
+```js
+
+import Layout from "../components/layout";
+
+<Layout></Layout>
+
+```
+
+## Dynamic Pages
+
+https://github.com/arunoda/learnnextjs-demo/tree/using-shared-components
+
+
+
+##
+
+
+```sh
+
+$ npm install --save express
+# OR
+$ npm i -S express
+
+```
+
