@@ -73,7 +73,7 @@ import Layout from "../components/layout";
 
 https://github.com/arunoda/learnnextjs-demo/tree/using-shared-components
 
-
+https://nextjs.org/learn/basics/create-dynamic-pages/with-router
 
 ## custom server API
 
