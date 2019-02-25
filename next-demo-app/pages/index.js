@@ -19,7 +19,7 @@ const Index = () => (
     <section>
         <div>
             <Link href="/about" style={{fontSize: 20,}}>
-                <a style={{ fontSize: 20 }}>About Page</a>
+                <a>About Page</a>
             </Link>
             <Link href="/about">
                 <a style={{ fontSize: 20 }}>About Page</a>
