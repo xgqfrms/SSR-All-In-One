@@ -51,3 +51,7 @@ $ npm run dev
 $ start http://localhost:3000 && npm run dev
 
 ```
+
+## Routing & Link
+
+https://github.com/zeit/next.js#routing
