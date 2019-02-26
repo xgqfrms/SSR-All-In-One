@@ -36,6 +36,30 @@ const PostLinks = (props) => (
                 ))
             }
         </ul>
+        {/* scoped css & css in js */}
+        <style jsx>
+            {`
+                h1, a {
+                    font-family: "Arial";
+                }
+                ul {
+                    padding: 0;
+                }
+                li {
+                    list-style: none;
+                    margin: 5px 0;
+                }
+                a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: #0076ff;
+                }
+                a:hover {
+                    opacity: 0.7;
+                    color: #3377ff;
+                }
+            `}
+        </style>
     </section>
 );
 

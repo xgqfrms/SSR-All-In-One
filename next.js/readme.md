@@ -107,6 +107,27 @@ https://github.com/zeit/next.js#fetching-data-and-component-lifecycle
 
 ## CSS in JS
 
+https://github.com/zeit/next.js#css-in-js
+
 https://nextjs.org/learn/basics/styling-components
 
 https://github.com/zeit/styled-jsx
+
+https://github.com/arunoda/learnnextjs-demo/tree/with-styled-jsx
+
+https://github.com/zeit/styled-jsx#one-off-global-selectors
+
+
+
+## markdown
+
+```sh
+
+$ npm i -S react-markdown
+
+```
+https://github.com/rexxars/react-markdown
+
+
+
+
