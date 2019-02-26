@@ -203,3 +203,21 @@ $ npm install -g now
 https://github.com/arunoda/learnnextjs-demo/tree/static-blog-final
 
 https://github.com/arunoda/learnnextjs-demo/blob/static-blog-final/next.config.js
+
+https://nextjs.org/learn/excel/static-html-export/export-the-index-page
+
+
+## test server
+
+```sh
+#  static web server
+$ npm i -g serve
+
+
+$ cd out
+$ serve -p 8080
+
+```
+https://ssr.xgqfrms.xyz/next-demo-app/out/index.html
+
+https://github.com/zeit/next.js#custom-server-and-routing
