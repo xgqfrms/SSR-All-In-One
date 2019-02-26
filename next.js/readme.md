@@ -182,3 +182,24 @@ $ cross-env PORT=9000 npm start
 
 ```
 
+
+# static html export
+
+https://nextjs.org/learn/excel/static-html-export
+
+
+# now cli
+
+https://zeit.co/download#now-cli
+
+```sh
+
+$ npm install -g now
+
+```
+
+# static blog
+
+https://github.com/arunoda/learnnextjs-demo/tree/static-blog-final
+
+https://github.com/arunoda/learnnextjs-demo/blob/static-blog-final/next.config.js
