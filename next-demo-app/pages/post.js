@@ -55,21 +55,32 @@ const Post = (props) => (
     </Layout>
 );
 
+// Post.getInitialProps = async function (context) {
+//     let {
+//         id,
+//     } = context.query;
+//     if(id === undefined) {
+//         id = 900;
+//     }
+//     // http://api.tvmaze.com/shows/900
+//     console.log(`Fetched show id = ${id}`);
+//     const res = await fetch(`http://api.tvmaze.com/shows/${id}`);
+//     const show = await res.json();
+//     console.log(`Fetched show: ${show.name}`);
+//     console.log(`Fetched show: `, JSON.stringify(show, null, 4));
+//     return {
+//         show,
+//     };
+// };
+
 Post.getInitialProps = async function (context) {
     let {
         id,
     } = context.query;
-    // if(id === undefined) {
-    //     id = 900;
-    // }
-    console.log(`Fetched show id = ${id}`);
-    const res = await fetch(`http://api.tvmaze.com/shows/${id}`);
-    const show = await res.json();
-    // Promise ???
-    // const show = await fetch(`http://api.tvmaze.com/shows/${id}`).then(res => res.json()).catch(err => console.log(`fetch error:`, err));
-    // console.log(`Fetched show: ${show.name}`);
-    // http://api.tvmaze.com/shows/900
-    console.log(`Fetched show: `, JSON.stringify(show, null, 4));
+    // console.log(`Fetched show id = ${id}`);
+    // Promise
+    const show = await fetch(`http://api.tvmaze.com/shows/${id}`).then(res => res.json()).catch(err => console.log(`fetch error:`, err));
+    // console.log(`Fetched show: `, JSON.stringify(show, null, 4));
     return {
         show,
     };
