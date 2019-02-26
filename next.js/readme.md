@@ -93,4 +93,13 @@ https://github.com/zeit/next.js#custom-server-and-routing
 > async function
 
 
+https://github.com/arunoda/learnnextjs-demo/tree/data-fetching
+https://nextjs.org/learn/basics/fetching-data-for-pages/fetching-batman-shows
+
+
+```sh
+$ npm i -S isomorphic-unfetch
+
+```
+
 
