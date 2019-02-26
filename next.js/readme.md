@@ -131,3 +131,11 @@ https://github.com/rexxars/react-markdown
 
 
 
+## deploy
+
+
+https://zeit.co/now
+
+
+
+
