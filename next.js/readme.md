@@ -102,4 +102,11 @@ $ npm i -S isomorphic-unfetch
 
 ```
 
+https://github.com/zeit/next.js#fetching-data-and-component-lifecycle
 
+
+## CSS in JS
+
+https://nextjs.org/learn/basics/styling-components
+
+https://github.com/zeit/styled-jsx
