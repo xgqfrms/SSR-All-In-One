@@ -139,3 +139,46 @@ https://zeit.co/now
 
 https://zeit.co/github-setup/learn
 
+
+
+```sh
+# build Next.js app for production
+$ npm run build
+
+# That will start our app in port 3000
+$ npm run start
+
+```
+
+### Run two instances
+
+```json
+{
+    "start": "next start -p $PORT",
+}
+// Windows
+
+{
+    "start": "next start -p %PORT%",
+}
+```
+
+> Then try to run the following commands in its own terminal:
+
+```sh
+# build Next.js app for production
+$ npm run build
+
+# That will start our app in port 8000
+$ PORT=8000 npm start
+
+# That will start our app in port 9000
+$ PORT=9000 npm start
+
+
+# Windows
+# https://www.npmjs.com/package/cross-env
+$ cross-env PORT=9000 npm start
+
+```
+
