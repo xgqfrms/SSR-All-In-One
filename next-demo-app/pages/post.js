@@ -58,11 +58,17 @@ const Content = withRouter((props) => (
         <hr />
         <div className="markdown">
             <Markdown source={`
-                This is our blog post.
-                Yes. We can have a [link](/link).
-                And we can have a title as well.
-                ### This is a title
-                And here's the content.
+1. This is our blog post.
+
+* Yes. We can have a [link](/link).
+
+* Yes. We can have a [link](https://github.com/rexxars/react-markdown).
+
+> And we can have a title as well.
+
+# This is a title
+
+And here's the content.
             `}/>
         </div>
         <style jsx global>
