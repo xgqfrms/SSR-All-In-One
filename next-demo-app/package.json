@@ -26,6 +26,8 @@
     "build": "next build",
     "start": "next start",
     "dev": "next",
+    "dev:default": "next -p 3000",
+    "dev:port": "next -p 3001",
     "dev:next": "npm start",
     "dev:prod": "node server.js",
     "prod": "NODE_ENV=production node server.js",

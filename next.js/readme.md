@@ -14,6 +14,18 @@ $ npx create-next-app --example blog-starter
 
 ```
 
+```json
+
+{
+  "scripts": {
+    "dev": "next dev",// next dev
+    "build": "next build",
+    "start": "next start"
+  }
+}
+
+```
+
 https://github.com/zeit/next.js/tree/canary/examples
 
 ## Install
@@ -42,6 +54,19 @@ $ mkdir pages
 
 ```
 
+```json
+{
+  "scripts": {
+    "dev": "next",// next
+    "dev:default": "next -p 3000",
+    "dev:port": "next -p 3001",
+    "build": "next build",
+    "start": "next start"
+  }
+}
+
+```
+
 ## Scripts
 
 ```sh
@@ -57,17 +82,16 @@ $ npm start
 
 ```
 
-```json
+## bin
 
-{
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  }
-}
+```sh
+# dev
+$ dev
+
+$ app
 
 ```
+
 
 ## DevOps
 
