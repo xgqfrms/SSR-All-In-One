@@ -36,7 +36,6 @@ function LoadTimeData(){}
 
 (function() {
   'use strict';
-
   LoadTimeData.prototype = {
     /**
      * Sets the backing object.
