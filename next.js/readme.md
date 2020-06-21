@@ -4,11 +4,26 @@
 
 https://nextjs.org/learn/basics/getting-started/setup
 
+## next cli
+
+```sh
+$ npx create-next-app
+
+# example
+$ npx create-next-app --example blog-starter
+
+```
+
+https://github.com/zeit/next.js/tree/canary/examples
+
 ## Install
+
+> 手动安装
 
 ```sh
 $ mkdir next-demo-app && cd next-demo-app
 
+# node package.json
 $ npm init -y
 
 # version: (1.0.0) 1.1.1
@@ -16,27 +31,40 @@ $ npm init -y
 # git repository: https://github.com/xgqfrms/ssr-all-in-one
 # keywords: SSR, React, Node.js, App, PWA, SPA, Next.js,
 # author: xgqfrms
-# license: (ISC) MIT
+# license: MIT
 
-$ npm install --save react react-dom next
+$ yarn add react react-dom next
 # OR
 $ npm i -S react react-dom next
-# OR
-$ yarn add react react-dom next
+# $ npm install --save react react-dom next
 
 $ mkdir pages
 
 ```
+
 ## Scripts
+
+```sh
+# dev
+$ npm run dev
+
+# build
+$ npm run build
+
+# after build
+$ npm start
+# $ npm run start
+
+```
 
 ```json
 
 {
-    "scripts": {
-        "dev": "next",
-        "build": "next build",
-        "start": "next start"
-    }
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
 }
 
 ```

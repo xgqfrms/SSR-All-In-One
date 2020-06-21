@@ -22,62 +22,67 @@ import Layout from "../components/layout";
 
 import PostLinks from "../components/post-links";
 
+import { log } from "../utils";
+
+
 // This is the Link API
 // import Link from "next/link";
 
 // const Index = () => (
-//     <section>
-//         <div>
-//             <Link href="/about">
-//                 <a style={{fontSize: 20,}}>About Page</a>
-//             </Link>
-//             <Link href="/about">
-//                 <button>Go to About Page</button>
-//             </Link>
-//         </div>
-//         <div>
-//             <p>Hello Next.js</p>
-//         </div>
-//     </section>
+//   <section>
+//     <div>
+//       <Link href="/about">
+//         <a style={{ fontSize: 20, }}>About Page</a>
+//       </Link>
+//       <Link href="/about">
+//         <button>Go to About Page</button>
+//       </Link>
+//     </div>
+//     <div>
+//       <p>Hello Next.js</p>
+//     </div>
+//   </section>
 // );
 
 // const Index = () => (
-//     <section>
-//         <Layout>
-//             <p>Hello Next.js</p>
-//         </Layout>
-//     </section>
+//   <section>
+//     <Layout>
+//       <p>Hello Next.js</p>
+//     </Layout>
+//   </section>
 // );
 
 // const Index = () => (
-//     <section>
-//         <Layout>
-//             <h1>My Blog</h1>
-//             <ul>
-//                 <PostLink id="hello-nextjs" title="Hello Next.js"/>
-//                 <PostLink id="learn-nextjs" title="Learn Next.js is awesome"/>
-//                 <PostLink id="deploy-nextjs" title="Deploy apps with Zeit"/>
-//             </ul>
-//         </Layout>
-//     </section>
+//   <section>
+//     <Layout>
+//       <h1>My Blog</h1>
+//       <ul>
+//         <PostLink id="hello-nextjs" title="Hello Next.js" />
+//         <PostLink id="learn-nextjs" title="Learn Next.js is awesome" />
+//         <PostLink id="deploy-nextjs" title="Deploy apps with Zeit" />
+//       </ul>
+//     </Layout>
+//   </section>
 // );
 
 const Index = (props) => (
-    <section>
-        <Layout>
-            <h1>My Blog</h1>
-            <PostLinks shows={props.shows}/>
-        </Layout>
-    </section>
+  <section>
+    <Layout>
+      <h1>My Blog</h1>
+      {/* <PostLinks shows={props.shows}/> */}
+    </Layout>
+  </section>
 );
 
 Index.getInitialProps = async function() {
-    const res = await fetch(`http://api.tvmaze.com/search/shows?q=batman`);
-    const data = await res.json();
-    console.log(`Show data fetched. Count: ${data.length}`);
-    return {
-        shows: data,
-    };
+  log(`init props data`)
+  // // local json
+  // const res = await fetch(`http://api.tvmaze.com/search/shows?q=batman`);
+  // const data = await res.json();
+  // log(`Show data fetched. Count: ${data.length}`);
+  // return {
+  //   shows: data,
+  // };
 };
 
 export default Index;

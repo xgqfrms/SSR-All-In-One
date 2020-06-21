@@ -1,43 +1,50 @@
 {
-    "name": "next-demo-app",
-    "version": "1.1.1",
-    "description": "SRR for React",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "next": "next",
-        "app": "npn run build",
-        "build": "next build",
-        "start": "next start",
-        "dev": "node server.js",
-        "prod": "NODE_ENV=production node server.js",
-        "export": "next export"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/xgqfrms/ssr-all-in-one.git"
-    },
-    "keywords": [
-        "SSR",
-        "React",
-        "Node.js",
-        "App",
-        "PWA",
-        "SPA",
-        "Next.js"
-    ],
-    "author": "xgqfrms",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/xgqfrms/ssr-all-in-one/issues"
-    },
-    "homepage": "https://github.com/xgqfrms/ssr-all-in-one#readme",
-    "dependencies": {
-        "express": "^4.16.4",
-        "isomorphic-unfetch": "^3.0.0",
-        "next": "^8.0.3",
-        "react": "^16.8.3",
-        "react-dom": "^16.8.3",
-        "react-markdown": "^4.0.6"
-    }
+  "name": "next-demo-app",
+  "version": "1.1.1",
+  "description": "SRR for React",
+  "main": "server.js",
+  "author": "xgqfrms",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "SSR",
+    "React",
+    "Node.js",
+    "App",
+    "PWA",
+    "SPA",
+    "Next.js"
+  ],
+  "bin": {
+    "dev": "./dev",
+    "app": "./app"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "next": "next",
+    "app": "npn run build",
+    "build": "next build",
+    "start": "next start",
+    "dev": "next",
+    "dev:next": "npm start",
+    "dev:prod": "node server.js",
+    "prod": "NODE_ENV=production node server.js",
+    "export": "next export"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-markdown": "^4.0.6"
+  },
+  "homepage": "https://github.com/xgqfrms/ssr-all-in-one#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgqfrms/ssr-all-in-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xgqfrms/ssr-all-in-one/issues"
+  }
 }

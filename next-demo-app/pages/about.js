@@ -21,24 +21,24 @@ import Layout from "../components/layout";
 // import Link from "next/link";
 
 // const About = () => (
-//     <section>
-//         <div>
-//             <Link href="/index">
-//                 <a>Home Page</a>
-//             </Link>
-//         </div>
-//         <div>
-//             <p>This is the about page</p>
-//         </div>
-//     </section>
+//   <section>
+//     <div>
+//       <Link href="/index">
+//         <a>Home Page</a>
+//       </Link>
+//     </div>
+//     <div>
+//       <p>This is the about page</p>
+//     </div>
+//   </section>
 // );
 
 const About = () => (
-    <section>
-        <Layout>
-            <p>This is the about page</p>
-        </Layout>
-    </section>
+  <section>
+    <Layout>
+      <p>This is the about page</p>
+    </Layout>
+  </section>
 );
 
 export default About;

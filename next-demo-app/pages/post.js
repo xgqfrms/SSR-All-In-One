@@ -25,6 +25,9 @@ import Markdown from "react-markdown";
 import Layout from "../components/layout";
 import Header from "../components/header";
 
+
+import { log } from "../utils";
+
 // const Post = withRouter((props) => (
 //     <Layout>
 //         <Header />
@@ -118,17 +121,20 @@ const Post = (props) => (
 //     };
 // };
 
-Post.getInitialProps = async function (context) {
-    let {
-        id,
-    } = context.query;
-    // console.log(`Fetched show id = ${id}`);
-    // Promise
-    const show = await fetch(`http://api.tvmaze.com/shows/${id}`).then(res => res.json()).catch(err => console.log(`fetch error:`, err));
-    // console.log(`Fetched show: `, JSON.stringify(show, null, 4));
-    return {
-        show,
-    };
-};
+// Post.getInitialProps = async function (context) {
+//   let {
+//     id,
+//   } = context.query;
+//   // console.log(`Fetched show id = ${id}`);
+//   // Promise
+//   const show = await
+//   fetch(`http://api.tvmaze.com/shows/${id}`)
+//   .then(res => res.json())
+//   .catch(err => console.log(`fetch error:`, err));
+//   // console.log(`Fetched show: `, JSON.stringify(show, null, 4));
+//   return {
+//     show,
+//   };
+// };
 
 export default Post;
