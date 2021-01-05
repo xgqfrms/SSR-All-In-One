@@ -34,3 +34,19 @@ $ cd ssr-app && yarn dev
 # You can update by running: yarn global add create-next-app
 
 ```
+
+http://localhost:3000
+
+http://localhost:3000/api/hello
+
+
+
+## old docs
+
+https://nextjs.org/docs/tag/v9.2.2/basic-features/pages
+
+## new docs
+
+https://nextjs.org/docs/basic-features/pages
+
+https://nextjs.org/docs/routing/dynamic-routes
