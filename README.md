@@ -40,3 +40,12 @@ https://www.cnblogs.com/xgqfrms/p/10421888.html
 
 https://www.cnblogs.com/xgqfrms/p/10430446.html
 
+
+
+## vercel SSR demo
+
+https://vercel.com/webgeeker/ssr-all-in-one
+
+https://ssr-all-in-one.vercel.app/
+
+
